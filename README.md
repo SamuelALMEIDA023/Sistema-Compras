@@ -13,35 +13,25 @@ Este é um projeto focado no uso de Orientação a Objetos em Java para implemen
 
 🚀 Funcionalidades Implementadas
 
-👉🏼	Adicionar um cliente ao sistema:
-    O sistema permite criar perfis para novos clientes, armazenando dados como nome e CPF.
-    
-👉🏼	Cadastrar um cartão de crédito para o cliente:
-    Cada cliente pode ter um ou mais cartões de crédito com limite definido.
-    
-👉🏼	Realizar compras utilizando o cartão de crédito:
-    O sistema gerencia o saldo disponível do cartão e bloqueia compras que excedem o limite.
-    
-👉🏼	Listar todas as compras realizadas por um cliente:
-    Exibe um histórico completo das transações realizadas com seu cartão.
-    
-👉🏼	Mostrar o saldo disponível após cada compra:
-    O sistema atualiza e exibe o saldo disponível em tempo real após cada transação.
+- [x] Adicionar um cliente ao sistema: O sistema permite criar perfis para novos clientes, armazenando dados como nome e CPF.  
+- [x] Cadastrar um cartão de crédito para o cliente: Cada cliente pode ter um ou mais cartões de crédito com limite definido.  
+- [x] Realizar compras utilizando o cartão de crédito: O sistema gerencia o saldo disponível do cartão e bloqueia compras que excedem o limite.  
+- [x] Listar todas as compras realizadas por um cliente: Exibe um histórico completo das transações realizadas com seu cartão.  
+- [x] Mostrar o saldo disponível após cada compra: O sistema atualiza e exibe o saldo disponível em tempo real após cada transação.  
+- [x] Exibir um resumo detalhado das compras realizadas por um cliente: Inclui informações como:  
+  - Produtos adquiridos.  
+  - Quantidade de itens.  
+  - Valor total gasto.  
+  - Saldo disponível no cartão. 
 
-👉🏼 Exibir um resumo detalhado das compras realizadas por um cliente
-    Inclui informações como:
-	  •	Produtos adquiridos.
-	  •	Quantidade de itens.
-	  •	Valor total gasto.
-	  •	Saldo disponível no cartão.
 
 🛠️ Tecnologias e Conceitos Utilizados
 
   •	Java: Linguagem principal para implementação do sistema.
-	•	Paradigma de Orientação a Objetos (POO):
-	•	Encapsulamento.
+  •	Paradigma de Orientação a Objetos (POO):
+  •	Encapsulamento.
   •	Associação entre classes.
-	•	Práticas de Clean Code: Código limpo e bem organizado para maior legibilidade e manutenção.
+  •	Práticas de Clean Code: Código limpo e bem organizado para maior legibilidade e manutenção.
   •	Coleções Java (List): Para gerenciar clientes, cartões e compras.
 
 📂 Estrutura do Projeto
