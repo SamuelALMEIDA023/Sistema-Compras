@@ -43,23 +43,23 @@ public class SistemaDeCompras {
 		    do {
 		    	
 		    	System.out.println("Deseja efetuar compra? ");
-			    System.out.println("1 - Efetuar nova compra");
-			    System.out.println("2 - Sair");
-			    opcao = sc.next();
+		        System.out.println("1 - Efetuar nova compra");
+		        System.out.println("2 - Sair");
+		        opcao = sc.next();
 			    
-			    if(opcao.equals("1")) {
-			    	 System.out.println("Informe suas compras: ");
-		                 System.out.print("Digite o nome do produto: ");
-			         sc.nextLine();
-			         String descricao = sc.nextLine();
+			if(opcao.equals("1")) {
+			    System.out.println("Informe suas compras: ");
+		            System.out.print("Digite o nome do produto: ");
+			    sc.nextLine();
+			    String descricao = sc.nextLine();
 					    
-				 System.out.print("Valor: ");
-				 double valor = sc.nextDouble();
-				 System.out.println();
+			    System.out.print("Valor: ");
+			    double valor = sc.nextDouble();
+			    System.out.println();
 					 
-				 Compra comp = new Compra(descricao, valor);
-				 comprasRealizadas.add(comp);    
-			    }
+			    Compra comp = new Compra(descricao, valor);
+			    comprasRealizadas.add(comp);    
+			}
 			   
 		    } while(!opcao.equals("2"));
 		    
