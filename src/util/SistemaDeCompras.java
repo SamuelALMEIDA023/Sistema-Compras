@@ -29,10 +29,10 @@ public class SistemaDeCompras {
 		cartao.setNumeroCartao(numeroCartao);
 		
 		System.out.print("limite do cartão: ");
-	    Double limite = sc.nextDouble();
-	    cartao.setLimite(limite);
+	        Double limite = sc.nextDouble();
+	        cartao.setLimite(limite);
 	    
-	    cliente.adicionarCartao(cartao);
+	        cliente.adicionarCartao(cartao);
 	}
 	
 	public static void realizarCompra(CartaoDeCredito cartao, Compra compras) {
