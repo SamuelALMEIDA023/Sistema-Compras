@@ -49,16 +49,16 @@ public class SistemaDeCompras {
 			    
 			    if(opcao.equals("1")) {
 			    	 System.out.println("Informe suas compras: ");
-					 System.out.print("Digite o nome do produto: ");
-					 sc.nextLine();
-					 String descricao = sc.nextLine();
+		                 System.out.print("Digite o nome do produto: ");
+			         sc.nextLine();
+			         String descricao = sc.nextLine();
 					    
-					 System.out.print("Valor: ");
-					 double valor = sc.nextDouble();
-					 System.out.println();
+				 System.out.print("Valor: ");
+				 double valor = sc.nextDouble();
+				 System.out.println();
 					 
-					 Compra comp = new Compra(descricao, valor);
-					 comprasRealizadas.add(comp);    
+				 Compra comp = new Compra(descricao, valor);
+				 comprasRealizadas.add(comp);    
 			    }
 			   
 		    } while(!opcao.equals("2"));
@@ -66,10 +66,10 @@ public class SistemaDeCompras {
 			
 		    for(Compra compra : comprasRealizadas) {
 		        if(cartao.realizarCompra(compra)) {
-					   System.out.println("Compra realizada: "+ compra.getDescricao() +" -  R$ "+ compra.getValor());
-				  } else {
-				       System.out.print("Limite insuficiente. Compra não realizada");
-				  }
+			      System.out.println("Compra realizada: "+ compra.getDescricao() +" -  R$ "+ compra.getValor());
+			} else {
+			      System.out.print("Limite insuficiente. Compra não realizada");
+			}
 		    }
 	}
 	
@@ -84,7 +84,7 @@ public class SistemaDeCompras {
 	    }
 		
 		for(Compra compra : compras) {
-			System.out.println((compras.indexOf(compra) + 1) +". "+ compra.getDescricao() + " - "+ compra.getValor());
+		     System.out.println((compras.indexOf(compra) + 1) +". "+ compra.getDescricao() + " - "+ compra.getValor());
 		}
 	}
 	
